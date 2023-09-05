@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section .margin {
+    margin: 0px 30px;
+}
+
+section .pading {
+    padding: 18px 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ============== top header css ============ */
+.colour {
+    background-color: #0d369f;
+}
+.colour .topheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.colour .topheader .contact{
+    display: flex;
+    gap: 30px;
+    color: white;
+
+}
+.colour .topheader .contact .div2,.div3{
+    display: flex;
+    gap: 10px;
+}
+.colour .topheader .socialmed{
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    font-size: 15px;
+    color: white;
+}
+/* =================== header css ================== */
+header .margin {
+    margin: 0px 30px;
+}
+
+header .padding {
+    padding: 14px 0px;
+}
+
+header .mainclass {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .mainclass .logo {
+    display: flex;
+    gap: 8px;
+    text-align: center;
+    font-size: 16px;
+}
+
+header .intro ul {
+    display: flex;
+    gap: 70px;
+
+}
+
+header .intro ul a {
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header .mainclass .moon input {
+    /* display: flex; */
+    height: 40px;
+    width: 190px;
+    border-radius: 30px;
+    border-color: gray;
+    margin-left: 10px;
+    /* padding-right: 20px; */
+}
+
+header .mainclass .moon input {
+    position: relative;
+    display: flex;
+}
+
+header .mainclass .moon .fa-magnifying-glass {
+    position: absolute;
+    top: 88px;
+    right: 50px;
+}
+
+/* ================== img secction================= */
+.homepage {
+    position: relative;
+    background-image: url(web\ img.jpg);
+    background-size: cover;
+    z-index: 1;
+}
+
+.homepage::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.425);
+    z-index: -1;
+}
+
+.homepage .homepage-content h1 {
+    font-size:70px;
+    text-transform: capitalize;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 50px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.homepage .homepage-content button {
+    height: 45px;
+    width: 130px;
+    margin: 80px;
+    margin-right: 60px;
+    margin-top: 60px;
+    font-size: 15px;
+}
+/* ===========tools============== */
+    /* .tmargin{
+        margin: 0px 60px ;
+    } */
+.tools{
+    position: relative;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: white;
+    z-index: 1;
+
+}
+.tools .tolbox{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* top: 0;
+    right: 0; */
+    left: 0;
+    bottom: -203px;
+    text-align: center;  
+    gap: 15px;
+    border-radius: 10px;
+    z-index:-1;
+
+}
+.tools .tolbox .icon{
+    font-size: 40px;
+    padding-top: 40px;
+
+}
+.tools .tolbox h3{
+    font-size: 25px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+
+}
+.tools .tolbox .gridbox1
+{
+    background-color:  #037ef3;
+    border-radius: 12px;
+    /* height: 230px; */
+
+
+}
+.tools .tolbox .gridbox2
+{
+    background-color:  #ffc949;
+    border-radius: 12px;
+
+}
+.tools .tolbox .gridbox3
+{
+    background-color:   #ff4f81;
+    border-radius: 12px;
+
+}
+.tools .tolbox .gridbox4
+{
+    background-color:  #1ee697;
+    border-radius: 12px;
+
+}
+/* ==================leters=============== */
+.letter .lmargin{
+    margin-top: 300px;
+    margin-bottom: 20px;
+}
+.letter .lpadding .upl{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.letter .upl .mdiv h1 span{
+    color: #ff6e65;
+}
+.letter .upl .lin1{
+    height: 2px;
+    width: 70px;
+    background-color: rgb(77, 76, 76);
+    margin-top: 10px;
+}
+.letter .upl .lin2{
+    height: 2px;
+    width: 70px;
+    margin-top: 8px;
+    background-color: rgb(77, 76, 76);
+    transform: translateX(30px);
+}
+.letter .upl .mdiv{
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+}
+/* ===============trending================= */
+.book .bmargin{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.book .mainbook {
+    display: flex;
+    justify-content: space-around;
+}
+.book .mainbook .aducation {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.book .mainbook .aducation .fa-graduation-cap {
+    background-color:#6f92eba9;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 15px;
+    font-size: 20px;
+    color: #0d369f;
+}
+.book .mainbook .aducation .fa-users{
+    background-color:#6f92eba9;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 15px;
+    font-size: 20px;
+    color: #0d369f;
+}
+.book .mainbook .aducation .fa-book{
+    background-color:#6f92eba9;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 15px;
+    font-size: 20px;
+    color: #0d369f;
+}
+.book .mainbook .aducation .b1 h1{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.book .mainbook  .aducation .pr{
+    color: rgb(85, 84, 84);
+    font-size: 14.5px;
+    gap: 15px;
+}
+/* =================get started============= */
+.letters .lmargin{
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+.letters .lpadding .upl{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.letters .upl .mdiv h1 span{
+    color: #ff6e65;
+}
+.letters .upl .lin1{
+    height: 2px;
+    width: 70px;
+    background-color: rgb(77, 76, 76);
+    margin-top: 10px;
+}
+.letters .upl .lin2{
+    height: 2px;
+    width: 70px;
+    margin-top: 8px;
+    background-color: rgb(77, 76, 76);
+    transform: translateX(30px);
+}
+.letters .upl .mdiv{
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+}   
+/* =================photos================= */
+.art .margin{
+    margin: 0px 30px;
+}
+.art .padding{
+    padding: 40px 0px;
+}
+.art .maincountener{
+    display: flex;
+    
+}
+.art .maincountener .minibox .minibox1{
+    display: flex;
+}
+.art .maincountener .minibox .div1{
+    display: flex;
+    gap: 170px;
+    padding-top: 35px;
+}
+.art .maincountener .minibox2 h1{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.art .maincountener .minibox2 p{
+    padding-bottom: 15px;
+}
+.art .maincountener .star {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.art .maincountener .star p{
+    padding-left: 155px;
+}
